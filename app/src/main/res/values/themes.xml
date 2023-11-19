@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <!-- light mode section -->
+    <style name="Theme.AlarmClock" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="backgroundcolor">#ffffff</item>
+        <item name="textColor">#808080</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Dark mode section -->
+    <style name="darkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="textColor">#ffffff</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- create a smooth animation for dark and light mode-->
+    <style name="WindowAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>
+
